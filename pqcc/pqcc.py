@@ -33,10 +33,6 @@ aes_secret = None
 aes_secret_ntru_cipher = None
 aes_secret_rsa_ntru_cipher = None
 
-# setattr(thismodule, "create", ntru_wrap_c.create)
-# setattr(thismodule, "encaps", ntru_wrap_c.encaps)
-# setattr(thismodule, "decaps", ntru_wrap_c.decaps)
-
 class Channel:
 
     def __init__(self):

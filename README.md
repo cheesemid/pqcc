@@ -12,6 +12,8 @@ PQCC is a Python library which allows for easy use of classical and post-quantum
 ## **Requirements**
 
 1. [Liboqs static library](https://github.com/open-quantum-safe/liboqs) (necessary for NTRU)
+    - Requires OpenSSL >= 1.1.1 or flag `-DOQS_USE_OPENSSL=OFF` can be passed to `Cmake`
+    - `Cmake` flag `-DOQS_MINIMAL_BUILD="OQS_ENABLE_KEM_ntru_hps2048509"` can be used to minimize the library size
 2. Linux-based operating system (for now)
 
 ## **Installation**
